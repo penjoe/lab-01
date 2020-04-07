@@ -1,0 +1,87 @@
+header, aside, section, article, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  background-color: #e6e600;
+}
+
+#aside {
+  background-color: rgb(88,88,88);
+}
+
+#section-c {
+  background-color: rgb(112,112,112);
+  ;
+}
+
+#section-d {
+  background-color: rgb(144,144,144);
+}
+
+#article-e {
+  background-color: rgb(176,176,176);
+}
+
+#article-f {
+  background-color: rgb(200,200,200);
+}
+
+#article-g {
+  background-color: rgb(232,232,232);
+}
+
+#article-h {
+  background-color: rgb(245,245,245);
+}
+
+#footer {
+  background-color: goldenrod;
+}
+
+@media all and (min-width: 768px) {
+
+  header, aside, section, article, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #header {
+    background-color: hsla(0, 60%, 50%, 0.9);
+  }
+  
+  #aside {
+    background-color: hsla(23, 60%, 50%, 0.9);
+  }
+  
+  #section-c {
+    background-color: hsla(51, 60%, 50%, 0.9);
+  }
+  
+  #section-d {
+    background-color: hsla(85, 60%, 50%, 0.9);
+  }
+  
+  #article-e {
+    background-color: hsla(117, 60%, 50%, 0.9);
+  }
+  
+  #article-f {
+    background-color: hsla(161, 60%, 50%, 0.9);
+  }
+  
+  #article-g {
+    background-color: hsla(213, 60%, 50%, 0.9);
+  }
+  
+  #article-h {
+    background-color: hsla(259, 60%, 50%, 0.9);
+  }
+  
+  #footer {
+    background-color: hsla(321, 60%, 50%, 0.9);
+  }
+}
