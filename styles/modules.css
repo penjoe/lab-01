@@ -1,3 +1,4 @@
+/* default/mobile view */
 header, aside, section, article, footer {
   display: flex;
   justify-content: center;
@@ -5,43 +6,89 @@ header, aside, section, article, footer {
 }
 
 #header {
-  background-color: #e6e600;
+  background-color: #B0DFE5;
 }
 
 #aside {
-  background-color: rgb(88,88,88);
+  background-color: #95C8D8;
 }
 
 #section-c {
-  background-color: rgb(112,112,112);
+  background-color: #89CFF0;
   ;
 }
 
 #section-d {
-  background-color: rgb(144,144,144);
+  background-color: #57A0D3;
 }
 
 #article-e {
-  background-color: rgb(176,176,176);
+  background-color: #73C2FB;
 }
 
 #article-f {
-  background-color: rgb(200,200,200);
+  background-color: #6593F5;
 }
 
 #article-g {
-  background-color: rgb(232,232,232);
+  background-color: #0080FF;
 }
 
 #article-h {
-  background-color: rgb(245,245,245);
+  background-color: #000080;
 }
 
 #footer {
-  background-color: goldenrod;
+  background-color: #111E6C;
 }
 
-@media all and (min-width: 768px) {
+/* tablet view */
+@media all and (min-width: 481px){
+  header, aside, section, article, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #header {
+    background-color: #DCDCDC;
+  }
+  
+  #aside {
+    background-color: #D3D3D3;
+  }
+  
+  #section-c {
+    background-color: #C0C0C0;
+  }
+  
+  #section-d {
+    background-color: #A9A9A9;
+  }
+  
+  #article-e {
+    background-color: #808080;
+  }
+  
+  #article-f {
+    background-color: #696969;
+  }
+  
+  #article-g {
+    background-color: #778899;
+  }
+  
+  #article-h {
+    background-color: #708090;
+  }
+  
+  #footer {
+    background-color: #2F4F4F;
+  }
+}
+
+/* desktop view */
+@media all and (min-width: 960px) {
 
   header, aside, section, article, footer {
     display: flex;
